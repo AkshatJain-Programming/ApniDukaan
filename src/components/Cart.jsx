@@ -61,7 +61,7 @@ const Cart = () => {
             <p className="text-xl font-bold mt-4">Total Items: {totalQuantity}</p>
             <p className="text-2xl font-bold">
               Total Amount:
-              <span className="text-blue-700"> ${totalPrice} </span>
+              <span className="text-blue-700"> ${totalPrice.toFixed(2)} </span>
             </p>
             <button className=" mt-5 px-5 py-3 bg-blue-500 text-white text-2xl border rounded-full">
               CHECKOUT NOW
